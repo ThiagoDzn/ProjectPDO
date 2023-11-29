@@ -10,7 +10,7 @@ class ConnectionFactory{
    static $dbhost='172.17.0.2';
    static $dbname='mysql';
 
-   static $password="thiago123";
+   static $password="";
 
    static $pdo;
 
