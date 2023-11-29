@@ -6,11 +6,11 @@ use App\SystemServices\MonologFactory;
 
 class ConnectionFactory{
 
-   static $dbuser='bn_moodle';
-   static $dbhost='192.168.9.107';
-   static $dbname='bitnami_moodle';
+   static $dbuser='ubn_moodle';
+   static $dbhost='172.17.0.2';
+   static $dbname='mysql';
 
-   static $password="";
+   static $password="thiago123";
 
    static $pdo;
 
